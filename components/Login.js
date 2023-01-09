@@ -6,7 +6,7 @@ const Login = () => {
   return (
     <Container>
       <Image />
-      <LoginButton />
+      <LoginButton>Login Google</LoginButton>
     </Container>
   );
 };
@@ -34,18 +34,14 @@ const LoginButton = styled.button.attrs((props) => ({
 }))`
   width: 250px;
   height: 50px;
-  background-color: #00d95e;
+  background-color: #25d366;
   border: none;
   margin-top: 40px;
   cursor: pointer;
   transition: all 0.25s;
   border-radius: 10px;
-
-  :before {
-    content: "Login with Google";
-    font-size: 20px;
-    font-weight: bold;
-  }
+  font-size: 20px;
+  font-weight: bold;
 
   :hover {
     background-color: #05f76e;
