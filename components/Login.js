@@ -30,7 +30,7 @@ const Image = styled.img.attrs((props) => ({
 `;
 
 const LoginButton = styled.button.attrs((props) => ({
-  onclick: props?.onclick,
+  onclick: props.onclick,
 }))`
   width: 250px;
   height: 50px;
